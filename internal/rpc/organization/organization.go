@@ -463,7 +463,6 @@ func (o *organizationSvr) SearchUsersFullInfo(ctx context.Context, req *organiza
 	//TODO implement me
 	panic("implement me")
 }
-<<<<<<< HEAD
 
 func (o *organizationSvr) GetDepartmentMemberNum(ctx context.Context, parentID string) (map[string]int, error) {
 	type Department struct {
@@ -569,5 +568,3 @@ func (o *organizationSvr) GetDepartmentMemberNum(ctx context.Context, parentID s
 
 	return res, nil
 }
-=======
->>>>>>> a24c5dd9cff9d5a7e9ed84ba34f1b210f0c9f8c5
