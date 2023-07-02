@@ -4,7 +4,7 @@
 make build-multiarch
 
 # 执行 docker-compose up -d 启动容器
-docker-compose up -d
+docker compose up -d
 
 # 等待一段时间以确保容器启动完成
 sleep 10
