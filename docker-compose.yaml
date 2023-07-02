@@ -1,0 +1,11 @@
+version: '3'
+services:
+  chat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./chat/config/:/chat/config/
+      - ./chat/scripts/:/chat/scripts/
+      - ./chat/logs:/chat/logs
+      - ./chat/bin:/chat/bin

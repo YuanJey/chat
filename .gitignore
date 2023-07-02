@@ -18,6 +18,9 @@
 bin/
 logs
 
+# chat
+chat/
+
 # Created by https://www.toptal.com/developers/gitignore/api/vim,jetbrains,vscode,git,go,tags,backup,test,emacs
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,jetbrains,vscode,git,go,tags,backup,test,emacs
 
