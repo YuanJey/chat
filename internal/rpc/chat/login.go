@@ -301,6 +301,7 @@ func (o *chatSvr) RegisterUser(ctx context.Context, req *chat.RegisterUserReq) (
 		OperatorUserID: mcontext.GetOpUserID(ctx),
 		ChangeTime:     register.CreateTime,
 		CreateTime:     register.CreateTime,
+		Email:          req.User.Email,
 	}
 	attribute := &chat2.Attribute{
 		UserID:         req.User.UserID,
